@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(245, 245, 245, 0.808);
+    z-index: 2;
+}
+.embed {
+    z-index: -2;
+}
+.container {
+    width: 80%;
+}
+.card {
+    margin: 0 2%;
+    box-shadow: 1em;
+}
+.overlay {
+    margin-top: -6%;
+}
+.icon-white {
+    color: white;
+    float: right;
+    margin-top: -10%;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+footer p {
+    margin: 0;
+}
+
+.row .col.s12 {
+    margin-bottom: inherit;
+}
