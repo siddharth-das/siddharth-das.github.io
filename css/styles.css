@@ -1,6 +1,9 @@
 body {
     background-color: rgba(245, 245, 245, 0.808);
     z-index: 2;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 .embed {
     z-index: -2;
@@ -22,11 +25,18 @@ body {
     margin-right: 3%;
     cursor: pointer;
 }
-
 footer p {
     margin: 0;
 }
-
 .row .col.s12 {
     margin-bottom: inherit;
 }
+main {
+    flex: 1 0 auto;
+}
+.progress {
+    position: fixed;
+    top: -5;
+    margin-top: 0;
+    width: 100%;
+  }

@@ -12,133 +12,139 @@
     
 </head>
 <body>
-    <div class="navbar-fixed">
-        <nav class="teal">
-            <div class="conatiner">
-                <div class="nav-wrapper black lighten-1">
-                    <a href="#" class="brand-logo">Logo</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">DATA SCIENCE</a></li>
-                        <li><a href="#">READING LIST</a></li>
-                        <li><a href="#">QUOTES</a></li>
-                        <li><a href="#">LIFE</a></li>
-                        <li><a href="#">FAVOURITE TALKS</a></li>
-                    </ul>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="teal">
+                <div class="conatiner">
+                    <div class="nav-wrapper black lighten-1">
+                        <a href="#" class="brand-logo">Logo</a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">DATA SCIENCE</a></li>
+                            <li><a href="#">READING LIST</a></li>
+                            <li><a href="#">QUOTES</a></li>
+                            <li><a href="#">LIFE</a></li>
+                            <li><a href="#">FAVOURITE TALKS</a></li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="slider embed">
+            <div class="container">
+                <ul class="slides">
+                    <li>
+                        <img src="images/jumbotron_bg.jpg" alt="hero-image">
+                        <div class="caption center-align">
+                            <h2> Siddharth Das </h2>
+                            <p class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, provident?</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </div>
-    <div class="slider embed">
+        </div>
         <div class="container">
-            <ul class="slides">
-                <li>
-                    <img src="images/jumbotron_bg.jpg" alt="hero-image">
-                    <div class="caption center-align">
-                        <h2> Siddharth Das </h2>
-                        <p class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, provident?</p>
+            <div class="row overlay">
+                <div class="col s12 m4">
+                    <div class="card teal hoverable">
+                        <div class="card-image">
+                            <img src="images/jumbotron_bg.jpg" alt="card image">
+                            <a href="blog_1.html"><span class="card-title">Card Title</span></a>
+                        </div>
+                        <div class="card-content white-text grey-text text-lighten-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti quo, quasi dolores fuga natus dolor repellendus sapiente recusandae ipsa?
+                        </div>
+                        <div class="card-action">
+                            <i title="Like" onclick=toggle_heart(this) class="fa fa-heart-o fa-2x icon-white"></i>
+                            <!-- <i onclick=toggle_like(this) class="fa fa-thumbs-o-up fa-2x icon-white"></i> -->
+                        </div>
                     </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row overlay">
-            <div class="col s12 m4">
-                <div class="card teal hoverable">
-                    <div class="card-image">
-                        <img src="images/jumbotron_bg.jpg" alt="card image">
-                        <a href="show.html"><span class="card-title">Card Title</span></a>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card teal hoverable">
+                        <div class="card-image">
+                            <img src="images/jumbotron_bg.jpg" alt="card image">
+                            <a href="blog_1.html"><span class="card-title">Card Title</span></a>
+                        </div>
+                        <div class="card-content white-text grey-text text-lighten-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti quo, quasi dolores fuga natus dolor repellendus sapiente recusandae ipsa?
+                        </div>
+                        <div class="card-action">
+                            <i title="Like" onclick=toggle_heart(this) class="fa fa-heart-o fa-2x icon-white active-heart"></i>
+                            <!-- <i onclick=toggle_like(this) class="fa fa-thumbs-o-up fa-2x icon-white active-like"></i> -->
+                        </div>
                     </div>
-                    <div class="card-content white-text grey-text text-lighten-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti quo, quasi dolores fuga natus dolor repellendus sapiente recusandae ipsa?
-                    </div>
-                    <div class="card-action">
-                        <i title="Like" onclick=toggle_heart(this) class="fa fa-heart-o fa-2x icon-white"></i>
-                        <!-- <i onclick=toggle_like(this) class="fa fa-thumbs-o-up fa-2x icon-white"></i> -->
+                </div>
+                <div class="col s12 m4">
+                    <div class="card teal hoverable">
+                        <div class="card-image">
+                            <img src="images/jumbotron_bg.jpg" alt="card image">
+                            <a href="blog_1.html"><span class="card-title">Card Title</span></a>
+                        </div>
+                        <div class="card-content white-text grey-text text-lighten-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti quo, quasi dolores fuga natus dolor repellendus sapiente recusandae ipsa?
+                        </div>
+                        <div class="card-action">
+                            <i title="Like" onclick=toggle_heart(this) class="fa fa-heart-o fa-2x icon-white active-heart"></i>
+                            <!-- <i onclick=toggle_like(this) class="fa fa-thumbs-o-up fa-2x icon-white active-like"></i> -->
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m4">
-                <div class="card teal hoverable">
-                    <div class="card-image">
-                        <img src="images/jumbotron_bg.jpg" alt="card image">
-                        <a href="show.html"><span class="card-title">Card Title</span></a>
-                    </div>
-                    <div class="card-content white-text grey-text text-lighten-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti quo, quasi dolores fuga natus dolor repellendus sapiente recusandae ipsa?
-                    </div>
-                    <div class="card-action">
-                        <i title="Like" onclick=toggle_heart(this) class="fa fa-heart-o fa-2x icon-white active-heart"></i>
-                        <!-- <i onclick=toggle_like(this) class="fa fa-thumbs-o-up fa-2x icon-white active-like"></i> -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card teal hoverable">
+                        <div class="card-image">
+                            <img src="images/jumbotron_bg.jpg" alt="card image">
+                            <a href="blog_1.html"><span class="card-title">Card Title</span></a>
+                        </div>
+                        <div class="card-content white-text grey-text text-lighten-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti quo, quasi dolores fuga natus dolor repellendus sapiente recusandae ipsa?
+                        </div>
+                        <div class="card-action">
+                            <i title="Like" onclick=toggle_heart(this) class="fa fa-heart-o fa-2x icon-white"></i>
+                            <!-- <i onclick=toggle_like(this) class="fa fa-thumbs-o-up fa-2x icon-white"></i> -->
+                        </div>
+                    </div>  
+                </div>
+                <div class="col s12 m4">
+                    <div class="card teal hoverable">
+                        <div class="card-image">
+                            <img src="images/jumbotron_bg.jpg" alt="card image">
+                            <a href="blog_1.html"><span class="card-title">Card Title</span></a>
+                        </div>
+                        <div class="card-content white-text grey-text text-lighten-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti quo, quasi dolores fuga natus dolor repellendus sapiente recusandae ipsa?
+                        </div>
+                        <div class="card-action">
+                            <i title="Like" onclick=toggle_heart(this) class="fa fa-heart-o fa-2x icon-white"></i>
+                            <!-- <i onclick=toggle_like(this) class="fa fa-thumbs-o-up fa-2x icon-white"></i> -->
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card teal hoverable">
-                    <div class="card-image">
-                        <img src="images/jumbotron_bg.jpg" alt="card image">
-                        <a href="show.html"><span class="card-title">Card Title</span></a>
-                    </div>
-                    <div class="card-content white-text grey-text text-lighten-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti quo, quasi dolores fuga natus dolor repellendus sapiente recusandae ipsa?
-                    </div>
-                    <div class="card-action">
-                        <i title="Like" onclick=toggle_heart(this) class="fa fa-heart-o fa-2x icon-white active-heart"></i>
-                        <!-- <i onclick=toggle_like(this) class="fa fa-thumbs-o-up fa-2x icon-white active-like"></i> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m4">
-                <div class="card teal hoverable">
-                    <div class="card-image">
-                        <img src="images/jumbotron_bg.jpg" alt="card image">
-                        <a href="show.html"><span class="card-title">Card Title</span></a>
-                    </div>
-                    <div class="card-content white-text grey-text text-lighten-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti quo, quasi dolores fuga natus dolor repellendus sapiente recusandae ipsa?
-                    </div>
-                    <div class="card-action">
-                        <i title="Like" onclick=toggle_heart(this) class="fa fa-heart-o fa-2x icon-white"></i>
-                        <!-- <i onclick=toggle_like(this) class="fa fa-thumbs-o-up fa-2x icon-white"></i> -->
-                    </div>
-                </div>  
-            </div>
-            <div class="col s12 m4">
-                <div class="card teal hoverable">
-                    <div class="card-image">
-                        <img src="images/jumbotron_bg.jpg" alt="card image">
-                        <a href="show.html"><span class="card-title">Card Title</span></a>
-                    </div>
-                    <div class="card-content white-text grey-text text-lighten-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti quo, quasi dolores fuga natus dolor repellendus sapiente recusandae ipsa?
-                    </div>
-                    <div class="card-action">
-                        <i title="Like" onclick=toggle_heart(this) class="fa fa-heart-o fa-2x icon-white"></i>
-                        <!-- <i onclick=toggle_like(this) class="fa fa-thumbs-o-up fa-2x icon-white"></i> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card teal hoverable">
-                    <div class="card-image">
-                        <img src="images/jumbotron_bg.jpg" alt="card image">
-                        <a href="show.html"><span class="card-title">Card Title</span></a>
-                    </div>
-                    <div class="card-content white-text grey-text text-lighten-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti quo, quasi dolores fuga natus dolor repellendus sapiente recusandae ipsa?
-                    </div>
-                    <div class="card-action">
-                        <i title = "Like" onclick=toggle_heart(this) class="fa fa-heart-o fa-2x icon-white"></i>
-                        <!-- <i onclick=toggle_like(this) class="fa fa-thumbs-o-up fa-2x icon-white"></i> -->
+                <div class="col s12 m4">
+                    <div class="card teal hoverable">
+                        <div class="card-image">
+                            <img src="images/jumbotron_bg.jpg" alt="card image">
+                            <a href="blog_1.html"><span class="card-title">Card Title</span></a>
+                        </div>
+                        <div class="card-content white-text grey-text text-lighten-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti quo, quasi dolores fuga natus dolor repellendus sapiente recusandae ipsa?
+                        </div>
+                        <div class="card-action">
+                            <i title = "Like" onclick=toggle_heart(this) class="fa fa-heart-o fa-2x icon-white"></i>
+                            <!-- <i onclick=toggle_like(this) class="fa fa-thumbs-o-up fa-2x icon-white"></i> -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+    
     <footer class="page-footer teal">
         <div class="footer-copyright">
             <div class="container center text-lighten-3">

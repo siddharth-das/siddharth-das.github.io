@@ -13,3 +13,11 @@ function toggle_heart(elem) {
         elem.title = "Unlike";
     }    
 }
+window.onscroll = function() {changeProgress()};
+
+function changeProgress() {
+  let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let scrolled = (winScroll / height) * 100;
+  document.querySelector(".determinate").style.width = scrolled + "%";
+}
